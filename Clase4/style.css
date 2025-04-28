@@ -1,0 +1,19 @@
+.red{
+    color: red;
+}
+
+.red:hover{
+    color: blue;
+}
+
+.red:active{
+    color: green;
+}
+
+.black{
+    color: black;
+}   
+
+#id{
+    color: red;
+}   
