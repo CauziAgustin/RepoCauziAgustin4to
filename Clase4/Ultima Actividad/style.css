@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor {
+    width: 1100px;
+    margin: 0 auto;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#cabecera {
+    background-color: #eeeeee;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#banner {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+#menu {
+    float: left;
+    width: 25%;
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu ul li {
+    margin-bottom: 10px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#contenido {
+    float: left;
+    width: 75%;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#contenido ul {
+    margin-top: 10px;
+}
+
+#contenido li {
+    margin-bottom: 15px;
+}
+
+#pie {
+    clear: both;
+    background-color: #eeeeee;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.verde {
+    background-color: #00FF00; 
+}
+
+.naranja {
+    color: #FF9900; 
+}
+
+.amarillo {
+    background-color: #FFFF00; 
+    font-style: italic;
+}
+
+.celeste {
+    background-color: #00FFFF;
+}
+
+.rojo {
+    color: red;
+}
+
+del {
+    color: grey;
+}
+
+u {
+    text-decoration: underline;
+}
