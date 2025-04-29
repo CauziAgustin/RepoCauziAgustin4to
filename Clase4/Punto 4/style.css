@@ -3,7 +3,7 @@
 }
 
 #cabecera {
-
+    display: none;
 }
 #menu {
     float: left;

@@ -6,6 +6,7 @@
 
 }
 #menu {
+   display: none;
     float: left;
     width: 150px;
 }
