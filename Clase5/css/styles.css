@@ -1,0 +1,57 @@
+/* Estilos generales */
+body {
+    padding-top: 56px; /* Para compensar la navbar fixed-top */
+}
+ 
+section {
+    padding: 60px 0;
+}
+ 
+/* Colores personalizados */
+.bg-purple {
+    background-color: #6f42c1;
+}
+ 
+.text-purple {
+    color: #6f42c1;
+}
+ 
+/* Estilos para la sección de inicio */
+#inicio {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+ 
+/* Animación para las tarjetas de habilidades */
+.card {
+    transition: transform 0.3s ease;
+}
+ 
+.card:hover {
+    transform: translateY(-10px);
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  section.mostrar {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+ 
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    #inicio {
+        min-height: auto;
+        padding-top: 2rem;
+    }
+}
