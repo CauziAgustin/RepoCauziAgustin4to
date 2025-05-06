@@ -32,21 +32,7 @@ section {
     transform: translateY(-10px);
 }
 
-html {
-    scroll-behavior: smooth;
-  }
-  
-  section {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-  }
-  
-  section.mostrar {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  
+
  
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
